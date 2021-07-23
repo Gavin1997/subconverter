@@ -13,9 +13,7 @@
 🌏 国内媒体,rules/DivineEngine/Surge/Ruleset/StreamingMedia/StreamingCN.list
 📲 电报信息,rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list
 🎾 Nintendo,rules/DivineEngine/Surge/Ruleset/Extra/Game/Nintendo.list
-🎮 游戏平台,rules/ACL4SSR/Clash/Ruleset/Epic.list
-🎮 游戏平台,rules/ACL4SSR/Clash/RulesetSony.list
-🎮 游戏平台,rules/ACL4SSR/Clash/Ruleset/Steam.list
+🎮 游戏平台,rules/gavin/game.list
 🔰 节点选择,rules/DivineEngine/Surge/Ruleset/Global.list
 🍎 苹果服务,rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list
 🍎 AppleTv,rules/gavin/Tv.list
