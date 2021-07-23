@@ -10,12 +10,7 @@
 🎬 YouTube,rules/DivineEngine/Surge/Ruleset/StreamingMedia/Video/YouTube.list
 🪄 TikTok,rules/DivineEngine/Surge/Ruleset/StreamingMedia/Video/TikTok.list
 🌍 国外媒体,rules/DivineEngine/Surge/Ruleset/StreamingMedia/Streaming.list
-🌏 国内媒体,rules/lhie1/Surge/Surge 3/Provider/Media/Bilibili.list
-🌏 国内媒体,rules/lhie1/Surge/Surge 3/Provider/Media/iQiyi.list
-🌏 国内媒体,rules/lhie1/Surge/Surge 3/Provider/Media/Letv.list
-🌏 国内媒体,rules/lhie1/Surge/Surge 3/Provider/Media/MOO.list
-🌏 国内媒体,rules/lhie1/Surge/Surge 3/Provider/Media/Tencent Video.list
-🌏 国内媒体,rules/lhie1/Surge/Surge 3/Provider/Media/Youku.list
+🌏 国内媒体,rules/DivineEngine/Surge/Ruleset/StreamingMedia/StreamingCN.list
 📲 电报信息,rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list
 🎾 Nintendo,rules/DivineEngine/Surge/Ruleset/Extra/Game/Nintendo.list
 🎮 游戏平台,rules/ACL4SSR/Clash/Ruleset/Epic.list
