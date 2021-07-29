@@ -1,8 +1,3 @@
-🎯 全球直连,rules/LocalAreaNetwork.list
-Ⓜ️ 微软服务,rules/MSServices.list
-🎯 全球直连,rules/DivineEngine/Surge/Ruleset/Unbreak.list
-🛑 全球拦截,rules/NobyDa/Surge/AdRule.list
-🛑 全球拦截,rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list
 🛑 全球拦截,rules/gavin/guardBlock.list
 🎥 NETFLIX,rules/DivineEngine/Surge/Ruleset/StreamingMedia/Video/Netflix.list
 🐻 disneyplus,rules/gavin/DisneyPlus.list
