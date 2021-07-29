@@ -6,6 +6,16 @@ DOMAIN-SUFFIX,playstationnetwork.com
 DOMAIN-SUFFIX,sony.com
 DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 
+# NAME: WildRift
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2021-07-23 09:41:04
+# DOMAIN-SUFFIX: 3
+# TOTAL: 3
+DOMAIN-SUFFIX,pvp.net
+DOMAIN-SUFFIX,riotcdn.net
+DOMAIN-SUFFIX,riotgames.com
+
 # Steam
 DOMAIN-SUFFIX,steam-chat.com
 DOMAIN-SUFFIX,steamcontent.com
