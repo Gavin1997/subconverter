@@ -28,7 +28,7 @@ excluded_routes=239.255.255.250/32, 24.105.30.129/32, 185.60.112.157/32, 185.60.
 # 示例意思：[蜂窝数据],[Wi-Fi],[SSID]
 # 下列示例的意思为：在蜂窝数据使用规则分流(第一个 filter)，在 Wi-Fi 使用规则分流(第二个 filter)，在 SSID 为 LINK_22E171 的 Wi-Fi 使用全部代理，，在 SSID 为 LINK_22E172 的 Wi-Fi 使用全部直连
 # Rewrite 及 Task 模块始终生效
-;running_mode_trigger=filter, filter, LINK_22E171:all_proxy, LINK_22E172:all_direct
+running_mode_trigger=filter, filter, Redmi_594D_5G:all_direct
 
 # 在特定 SSID 网络时(除了 Task 模块)暂停 Quantumult X
 ;ssid_suspended_list=LINK_22E174, LINK_22E175
@@ -95,7 +95,7 @@ server=/dl.l.google.com/119.29.29.29
 
 
 [server_remote]
-https://gavin-converter.kooldns.cn/sub?target=quanx&url=http%3A%2F%2Fservice-f8ydge06-1306597368.jp.apigw.tencentcs.com%2Flink%2FgSKnvkNuYlkYxVFJ%3Fclash%3D1%26extend%3D1&insert=false&include=VIP&emoji=true&list=true&tfo=false&scv=false&fdn=false&sort=true,tag=火箭🚀, update-interval=172800, opt-parser=false, enabled=true
+http://139.129.243.117/sub?target=quanx&url=http%3A%2F%2Fservice-f8ydge06-1306597368.jp.apigw.tencentcs.com%2Flink%2FgSKnvkNuYlkYxVFJ%3Fclash%3D1%26extend%3D1&insert=false&include=VIP&emoji=true&list=true&tfo=false&scv=false&fdn=false&sort=true,tag=火箭🚀, update-interval=172800, opt-parser=false, enabled=true
 [filter_remote]
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list, tag=🛡️ 广告拦截, force-policy=🛡️ 广告拦截, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/AdvertisingPlus.list#type=domain-set, tag=🛡️ 广告拦截, force-policy=🛡️ 广告拦截, update-interval=86400, opt-parser=true, enabled=true
