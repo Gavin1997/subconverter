@@ -97,33 +97,33 @@ server=/dl.l.google.com/119.29.29.29
 [server_remote]
 https://gavin-converter.kooldns.cn/sub?target=quanx&url=http%3A%2F%2Fservice-f8ydge06-1306597368.jp.apigw.tencentcs.com%2Flink%2FgSKnvkNuYlkYxVFJ%3Fclash%3D1%26extend%3D1&insert=false&include=VIP&emoji=true&list=true&tfo=false&scv=false&fdn=false&sort=true,tag=火箭🚀, update-interval=172800, opt-parser=false, enabled=true
 [filter_remote]
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list, tag=⛔️ 广告拦截, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/AdvertisingPlus.list#type=domain-set, tag=⛔️ 广告拦截, force-policy=Guard, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/Gavin1997/gavinsurge/main/Rule/guardBlock.list, tag=⛔️ 广告拦截, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list, tag=🚫 运营劫持, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list, tag=🚫 运营劫持, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list, tag=🎯 全球直连, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list, tag=🎯 全球直连, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list, tag=🎥 NETFLIX, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/Gavin1997/gavinsurge/main/Rule/disneyplys.list, tag=🐻 disneyplus, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Porn.list, tag=🔞 porn, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list, tag=🎬 YouTube, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/TikTok.list, tag=🪄 TikTok, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list, tag=🌍 国外媒体, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingCN.list, tag=🌏 国内媒体, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Telegram/Telegram.list, tag=📲 电报信息, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Nintendo.list, tag=🎾 Nintendo, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/Gavin1997/gavinsurge/main/Rule/game.list, tag=🎮 游戏平台, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list, tag=🔰 节点选择, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list, tag=🍎 苹果服务, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/Gavin1997/gavinsurge/main/Rule/TV.list, tag=🍎 AppleTv, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list, tag=🎯 全球直连, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Download.list, tag=🎯 全球直连, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list, tag=🛡️ 广告拦截, force-policy=🛡️ 广告拦截, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/AdvertisingPlus.list#type=domain-set, tag=🛡️ 广告拦截, force-policy=🛡️ 广告拦截, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/Gavin1997/gavinsurge/main/Rule/guardBlock.list, tag=🛡️ 广告拦截, force-policy=🛡️ 广告拦截, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list, tag=🛡️ 运营劫持, force-policy=🛡️ 运营劫持, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list, tag=🛡️ 运营劫持, force-policy=🛡️ 运营劫持, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list, tag=🇺🇳 全球直连, force-policy=🇺🇳 全球直连, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list, tag=🇺🇳 全球直连, force-policy=🇺🇳 全球直连, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list, tag=🎥 NETFLIX, force-policy=🎥 NETFLIX, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/Gavin1997/gavinsurge/main/Rule/disneyplys.list, tag=🐻 disneyplus, force-policy=🐻 disneyplus, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Porn.list, tag=🔞 porn, force-policy=🔞 porn, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list, tag=🎬 YouTube, force-policy=🎬 YouTube, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/TikTok.list, tag=🪄 TikTok, force-policy=🪄 TikTok, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list, tag=🎞 国外媒体, force-policy=🎞 国外媒体, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingCN.list, tag=🌏 国内媒体, force-policy=🌏 国内媒体, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Telegram/Telegram.list, tag=📲 电报信息, force-policy=📲 电报信息, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Nintendo.list, tag=🎾 Nintendo, force-policy=🎾 Nintendo, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/Gavin1997/gavinsurge/main/Rule/game.list, tag=🎮 游戏平台, force-policy=🎮 游戏平台, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list, tag=🔰 节点选择, force-policy=🔰 节点选择, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list, tag=🍎 苹果服务, force-policy=🍎 苹果服务, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/Gavin1997/gavinsurge/main/Rule/TV.list, tag=🍎 AppleTv, force-policy=🍎 AppleTv, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list, tag=🇺🇳 全球直连, force-policy=🇺🇳 全球直连, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Download.list, tag=🇺🇳 全球直连, force-policy=🇺🇳 全球直连, update-interval=86400, opt-parser=true, enabled=true
 [rewrite_remote]
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=🛡Block Advertising update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=🛡Block Advertising+, update-interval=172800, opt-parser=false, enabled=true
 # 美国
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/TikTok-US.conf, tag=TikTok_US, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/TikTok-US.conf, tag=TikTok_US, update-interval=86400, opt-parser=false, enabled=false
 # 韩国
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/TikTok-KR.conf, tag=TikTok_KR, update-interval=86400, opt-parser=false, enabled=true
 # emby
@@ -133,7 +133,8 @@ https://raw.githubusercontent.com/qiangxinglin/Emby/main/QuantumultX/emby.conf, 
 [filter_local]
 
 [rewrite_local]
-
+# K生活 佳兆业开门软件
+^http?:\/\/web\.k\.gigahome\.cn\/api\/klife\/mall\/splash url reject
 #tiktok 解锁直播区域限制
 (?<=_region=)CN(?=&) url 307 KR
 (?<=&mcc_mnc=)4 url 307 2

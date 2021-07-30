@@ -12,7 +12,7 @@
 ;🔰 节点选择,rules/DivineEngine/Surge/Ruleset/Global.list
 ;🍎 苹果服务,rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list
 ;🍎 AppleTv,rules/gavin/Tv.list
-;🎯 全球直连,rules/DivineEngine/Surge/Ruleset/China.list
-;🎯 全球直连,rules/NobyDa/Surge/Download.list
-🎯 全球直连,[]GEOIP,CN
+;🇺🇳 全球直连,rules/DivineEngine/Surge/Ruleset/China.list
+;🇺🇳 全球直连,rules/NobyDa/Surge/Download.list
+🇺🇳 全球直连,[]GEOIP,CN
 🐟 漏网之鱼,[]FINAL
