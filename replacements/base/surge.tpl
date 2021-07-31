@@ -35,8 +35,6 @@ skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,loc
 exclude-simple-hostnames = true
 # > Network framwork
 network-framework = false
-bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
-bypass-system = true
 # > DNS 服务器 (如无必要不建议使用 DNS over HTTPS)
 dns-server = 119.29.29.29, 223.5.5.5, system
 # > 从 /etc/hosts 读取 DNS 记录
@@ -49,13 +47,13 @@ loglevel = notify
 show-error-page-for-reject = true
 
 # > Always Real IP Hosts
-# always-real-ip = msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.battlenet.com.cn, *.battlenet.com, *.blzstatic.cn, *.battle.net
+always-real-ip = msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.battlenet.com.cn, *.battlenet.com, *.blzstatic.cn, *.battle.net
 # > TCP Force HTTP Hosts
 # KOOWO - 123.59.31.1,119.18.193.135, 122.14.246.33, 175.102.178.52
 # TencentVideo - 116.253.24.*, 175.6.26.*, 220.169.153.*
 # force-http-engine-hosts = *.ott.cibntv.net, 123.59.31.1,119.18.193.135, 122.14.246.33, 175.102.178.52, 116.253.24.*, 175.6.26.*, 220.169.153.*
 # > VIF Excluded Routes
-# tun-excluded-routes = 239.255.255.250/32
+tun-excluded-routes = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
 
 [Replica]
 # 0 为关闭，1 为开启
