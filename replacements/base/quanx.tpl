@@ -1,16 +1,9 @@
 {% if request.target == "quanx" %}
 
 [general]
-;profile_img_url=http://www.example.com/example.png
-
 # resource_parser_url 示例可以在以下网站找到 https://raw.githubusercontent.com/crossutility/Quantumult-X/master/resource-parser.js
 resource_parser_url=https://cdn.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scripts/resource-parser.js
-
-;geo_location_checker=http://www.example.com/json/, https://www.example.com/script.js
-
-# Quantumult 使用 HEAD 方法将 HTTP 请求发送到服务器检查 url 来测试代理的状态，结果应该是两个延迟，第一个是 TCP 与代理服务器的握手，第二个是 Quantumult 成功地从服务器检查 url 接收 HTTP 响应的总时间。闪电图标表示 TCP Fast Open 成功。如果 [server_local] 或 [server_remote] 中的服务器有自己的 server_check_url，则会用自己的 server_check_url 代替 [general] 中的 server_check_url。
-# Quantumult 使用 HTTP HEAD 方法对测试网址 server_check_url 进行网页响应性测试(测试结果为通过该节点访问此网页获得 HTTP 响应所需要的时间)，来确认节点的可用性。
-# Quantumult 界面中的延迟测试方式均为网页响应性测试，显示的最终延迟均为通过对应节点访问测试网页获得 HTTP 响应所需要时间。
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://github.com/KOP-XIAO/QuantumultX/raw/master/Scripts/IP_API.js
 # 由于 Trojan 协议为无响应校验协议，使得 HTTP 检测方式即使获得了 HTTP 响应，也不代表节点一定可用。
 server_check_url=http://cp.cloudflare.com/generate_204
 
@@ -19,10 +12,7 @@ server_check_url=http://cp.cloudflare.com/generate_204
 dns_exclusion_list=*.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.me, *.pingan.com.cn, *.cmbchina.com
 
 # Quantumult 将不会处理到 excluded_routes 的流量。修改后最好重新启动您的设备。
-;excluded_routes=192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
-# Hearthstone: 24.105.30.129/32, 185.60.112.157/32, 185.60.112.158/32, 182.162.132.1/32
-excluded_routes=239.255.255.250/32, 24.105.30.129/32, 185.60.112.157/32, 185.60.112.158/32, 182.162.132.1/32
-
+excluded_routes=192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
 # 在网络环境切换时出发运行模式变更
 # filter - 规则分流，all_proxy - 全部代理，all_direct - 全部直连
 # 示例意思：[蜂窝数据],[Wi-Fi],[SSID]
@@ -60,8 +50,9 @@ no-ipv6
 # > DNSPod Public DNS
 server=119.29.29.29
 # > Alibaba Public DNS
-# server=223.5.5.5
-
+server=223.5.5.5
+server=1.0.0.1
+server=8.8.8.8
 # 在特定的网络环境下忽略自定义 DNS 可在后方加上「excluded_ssids」相关字段。
 # 注意：如配置了 no-system，则请务必确保在忽略了部分自定义 DNS 的配置下至少有一个可用的自定义 DNS 配置。
 # server=114.114.114.114, excluded_ssids=SSID1, SSID2
