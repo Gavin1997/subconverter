@@ -12,7 +12,7 @@ server_check_url=http://cp.cloudflare.com/generate_204
 dns_exclusion_list=*.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.me, *.pingan.com.cn, *.cmbchina.com
 
 # Quantumult 将不会处理到 excluded_routes 的流量。修改后最好重新启动您的设备。
-excluded_routes=192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
+;excluded_routes=192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
 # 在网络环境切换时出发运行模式变更
 # filter - 规则分流，all_proxy - 全部代理，all_direct - 全部直连
 # 示例意思：[蜂窝数据],[Wi-Fi],[SSID]
@@ -88,28 +88,7 @@ server=/dl.l.google.com/119.29.29.29
 [server_remote]
 http://139.129.243.117/sub?target=quanx&url=http%3A%2F%2Fservice-f8ydge06-1306597368.jp.apigw.tencentcs.com%2Flink%2FgSKnvkNuYlkYxVFJ%3Fclash%3D1%26extend%3D1&insert=false&include=VIP&emoji=true&list=true&tfo=false&scv=false&fdn=false&sort=true,tag=火箭🚀, update-interval=172800, opt-parser=false, enabled=true
 [filter_remote]
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list, tag=🛡️ 广告拦截, force-policy=🛡️ 广告拦截, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/AdvertisingPlus.list#type=domain-set, tag=🛡️ 广告拦截, force-policy=🛡️ 广告拦截, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/Gavin1997/gavinsurge/main/Rule/guardBlock.list, tag=🛡️ 广告拦截, force-policy=🛡️ 广告拦截, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list, tag=🛡️ 运营劫持, force-policy=🛡️ 运营劫持, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list, tag=🛡️ 运营劫持, force-policy=🛡️ 运营劫持, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list, tag=🇺🇳 全球直连, force-policy=🇺🇳 全球直连, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list, tag=🇺🇳 全球直连, force-policy=🇺🇳 全球直连, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list, tag=🎥 NETFLIX, force-policy=🎥 NETFLIX, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/Gavin1997/gavinsurge/main/Rule/disneyplys.list, tag=🐻 disneyplus, force-policy=🐻 disneyplus, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Porn.list, tag=🔞 porn, force-policy=🔞 porn, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list, tag=🎬 YouTube, force-policy=🎬 YouTube, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/TikTok.list, tag=🪄 TikTok, force-policy=🪄 TikTok, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list, tag=🎞 国外媒体, force-policy=🎞 国外媒体, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingCN.list, tag=🌏 国内媒体, force-policy=🌏 国内媒体, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Telegram/Telegram.list, tag=📲 电报信息, force-policy=📲 电报信息, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Nintendo.list, tag=🎾 Nintendo, force-policy=🎾 Nintendo, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/Gavin1997/gavinsurge/main/Rule/game.list, tag=🎮 游戏平台, force-policy=🎮 游戏平台, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list, tag=🔰 节点选择, force-policy=🔰 节点选择, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list, tag=🍎 苹果服务, force-policy=🍎 苹果服务, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/Gavin1997/gavinsurge/main/Rule/TV.list, tag=🍎 AppleTv, force-policy=🍎 AppleTv, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list, tag=🇺🇳 全球直连, force-policy=🇺🇳 全球直连, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Download.list, tag=🇺🇳 全球直连, force-policy=🇺🇳 全球直连, update-interval=86400, opt-parser=true, enabled=true
+
 [rewrite_remote]
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=🛡Block Advertising update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=🛡Block Advertising+, update-interval=172800, opt-parser=false, enabled=true
