@@ -51,8 +51,6 @@ no-ipv6
 server=119.29.29.29
 # > Alibaba Public DNS
 server=223.5.5.5
-server=1.0.0.1
-server=8.8.8.8
 # 在特定的网络环境下忽略自定义 DNS 可在后方加上「excluded_ssids」相关字段。
 # 注意：如配置了 no-system，则请务必确保在忽略了部分自定义 DNS 的配置下至少有一个可用的自定义 DNS 配置。
 # server=114.114.114.114, excluded_ssids=SSID1, SSID2
