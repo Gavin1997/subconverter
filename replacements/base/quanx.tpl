@@ -88,6 +88,9 @@ http://139.129.243.117/sub?target=quanx&url=http%3A%2F%2Fservice-f8ydge06-130659
 [filter_remote]
 
 [rewrite_remote]
+# gavin重写去广告
+https://raw.githubusercontent.com/Gavin1997/gavinsurge/main/quanx/urlRewrite.conf, tag=🍒BlockBygavin update-interval=172800, opt-parser=false, enabled=true
+# 神机重写去广告
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=🛡Block Advertising update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=🛡Block Advertising+, update-interval=172800, opt-parser=false, enabled=true
 # 美国
@@ -101,17 +104,6 @@ https://raw.githubusercontent.com/qiangxinglin/Emby/main/QuantumultX/emby.conf, 
 [filter_local]
 
 [rewrite_local]
-# K生活 佳兆业开门软件
-^http?:\/\/web\.k\.gigahome\.cn\/api\/klife\/mall\/splash url reject
-#tiktok 解锁直播区域限制
-(?<=_region=)CN(?=&) url 307 KR
-(?<=&mcc_mnc=)4 url 307 2
-^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) url 302  $1$3
-(?<=\d\/\?\w{7}_\w{4}=)1[6-9]..(?=.?.?&) url 307 17
-
-# 去微信公众号广告 (By Choler)
-^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
-
 # 酷我音乐SVIP (By yxiaocai)
 ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
 
