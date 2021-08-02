@@ -39,7 +39,7 @@ hide-udp = 0
 # > 关键词
 # keyword-filter = (null)
 [Rule]
-AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP
+# AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP
 RULE-SET,https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Download.list,🇺🇳 全球直连
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🇺🇳 全球直连
 RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list,🇺🇳 全球直连
