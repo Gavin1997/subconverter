@@ -88,6 +88,8 @@ http://139.129.243.117/sub?target=quanx&url=http%3A%2F%2Fservice-f8ydge06-130659
 [filter_remote]
 
 [rewrite_remote]
+# google重定向高级优化
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=🌳general update-interval=172800, opt-parser=false, enabled=true
 # gavin重写去广告
 https://raw.githubusercontent.com/Gavin1997/gavinsurge/main/quanx/urlRewrite.conf, tag=🍒BlockBygavin update-interval=172800, opt-parser=false, enabled=true
 # 神机重写去广告
