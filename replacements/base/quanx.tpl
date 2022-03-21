@@ -18,7 +18,7 @@ dns_exclusion_list=*.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.
 # 示例意思：[蜂窝数据],[Wi-Fi],[SSID]
 # 下列示例的意思为：在蜂窝数据使用规则分流(第一个 filter)，在 Wi-Fi 使用规则分流(第二个 filter)，在 SSID 为 LINK_22E171 的 Wi-Fi 使用全部代理，，在 SSID 为 LINK_22E172 的 Wi-Fi 使用全部直连
 # Rewrite 及 Task 模块始终生效
-running_mode_trigger=filter, filter, Redmi_594D_5G:all_direct
+running_mode_trigger=filter, filter, asus86u_5G:all_direct
 
 # 在特定 SSID 网络时(除了 Task 模块)暂停 Quantumult X
 ;ssid_suspended_list=LINK_22E174, LINK_22E175
