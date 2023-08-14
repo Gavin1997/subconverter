@@ -48,6 +48,7 @@ RULE-SET,https://raw.githubusercontent.com/Gavin1997/gavinsurge/main/Rule/guardB
 RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list,🛡️ 运营劫持
 RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list,🛡️ 运营劫持
 RULE-SET,https://raw.githubusercontent.com/Gavin1997/gavinsurge/main/Rule/netflix.list,🎥 NETFLIX
+RULE-SET,https://raw.githubusercontent.com/Gavin1997/gavinsurge/main/Rule/chatgpt.list,📚 chatgpt
 RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list,🎞 国外媒体
 RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingCN.list,🌏 国内媒体
 RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Game/Nintendo.list,🎾 Nintendo
